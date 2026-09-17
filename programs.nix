@@ -6,10 +6,6 @@
 
   # Display manager
   services.xserver.displayManager.lightdm.enable = true;
-  services.xserver.xkb = {
-    layout = "br";
-    variant = "";
-  };
 
   # Shell
   programs.zsh = {
