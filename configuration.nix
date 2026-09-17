@@ -43,6 +43,7 @@
 
   # Allow sudo for wheel
   security.sudo.wheelNeedsPassword = true;
+  nixpkgs.config.allowUnfree = true;
 
   # Nix settings
   nix.settings.experimental-features = [
