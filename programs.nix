@@ -7,7 +7,7 @@
   # displayManager.sessionCommands = ''
   #      xwallpaper --stretch ~/wallpapers/a.png
   # '';
-  #};
+  };
 
   # Display manager
   services.xserver.displayManager.lightdm.enable = true;
