@@ -12,13 +12,6 @@
     enable = true;
   };
 
-  # Fonts
-  fonts.packages = with pkgs; [
-    nerd-fonts.jetbrains-mono
-    noto-fonts
-    noto-fonts-emoji
-  ];
-
   # Enable basic desktop services
   services.dbus.enable = true;
 
