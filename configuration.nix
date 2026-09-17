@@ -15,7 +15,6 @@
 
   # Networking
   networking.networkmanager.enable = true;
-  networking.networkmanager.enable = true;
   console.keyMap = "br-abnt2";
   
   # Time zone
@@ -26,6 +25,11 @@
 
   # X11
   services.xserver.enable = true;
+  services.xserver.xkb = {
+    layout = "br";
+    variant = "";
+  };
+  console.keyMap = "br-abnt2";
 
   # Your user
   users.users.yourusername = {
