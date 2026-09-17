@@ -29,5 +29,7 @@
 
     # Networking
     networkmanagerapplet
+    # Browser
+    firefox
   ];
 }
