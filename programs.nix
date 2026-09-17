@@ -1,16 +1,16 @@
 { config, pkgs, ... }:
 
 {
-  # Window manager
-  services.xserver.windowManager.oxwm.enable = true;
+   services.xserver = {
+   enable = true;
+   windowManager.oxwm.enable = true;
+  # displayManager.sessionCommands = ''
+  #      xwallpaper --stretch ~/wallpapers/a.png
+  # '';
+  #};
 
   # Display manager
   services.xserver.displayManager.lightdm.enable = true;
-
-  # Shell
-  programs.zsh = {
-    enable = true;
-  };
 
   # Enable basic desktop services
   services.dbus.enable = true;
