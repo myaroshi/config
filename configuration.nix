@@ -32,9 +32,9 @@
   console.keyMap = "br-abnt2";
 
   # Your user
-  users.users.yourusername = {
+  users.users.lynn = {
     isNormalUser = true;
-    description = "Your Name";
+    description = "lynn";
     extraGroups = [
       "wheel"
       "networkmanager"
