@@ -4,7 +4,7 @@
   home.username = "yourusername";
   home.homeDirectory = "/home/yourusername";
 
-  home.stateVersion = "25.11";
+  home.stateVersion = "26.05";
 
   imports = [
     ./alacritty.nix
