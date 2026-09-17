@@ -1,8 +1,8 @@
 { config, pkgs, ... }:
 
 {
-  home.username = "yourusername";
-  home.homeDirectory = "/home/yourusername";
+  home.username = "lynn";
+  home.homeDirectory = "/home/lynn";
 
   home.stateVersion = "26.05";
 
@@ -17,18 +17,6 @@
     eza
     bat
   ];
-
-  # Git
-  programs.git = {
-    enable = true;
-
-    userName = "Your Name";
-    userEmail = "you@example.com";
-  };
-
-  # Zsh
-  programs.zsh = {
-    enable = true;
 
     enableCompletion = true;
     autosuggestion.enable = true;
