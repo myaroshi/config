@@ -57,5 +57,11 @@
     options = "--delete-older-than 14d";
   };
 
+services.picom = {
+   enable = true;
+   backend = "glx";
+   fade = true;
+};
+
   system.stateVersion = "26.05";
 }
