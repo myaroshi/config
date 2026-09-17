@@ -7,21 +7,17 @@
 
     # Utilities
     git
-    curl
-    wget
-    unzip
-    zip
+    dmenu
 
     # System tools
-    htop
     btop
     fastfetch
 
     # File management
-    ranger
+    pcmanfm
 
     # Editors
-    neovim
+    vim
 
     # Wayland/X11 utilities
     picom
