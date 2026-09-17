@@ -16,7 +16,6 @@
 
   # Networking
   networking.networkmanager.enable = true;
-  console.keyMap = "br-abnt2";
   
   # Time zone
   time.timeZone = "America/Sao_Paulo";
