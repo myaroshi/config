@@ -7,6 +7,8 @@
 
     # Utilities
     git
+    xarchiver
+    mullvad-vpn
     dmenu
 
     # System tools
