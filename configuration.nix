@@ -16,6 +16,7 @@
 
   # Networking
   networking.networkmanager.enable = true;
+  services.mullvad-vpn.enable = true;
   
   # Time zone
   time.timeZone = "America/Sao_Paulo";
